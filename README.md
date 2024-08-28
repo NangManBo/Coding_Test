@@ -1,2 +1,5 @@
-# Baekjoon_Practice
-This is an auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
+# 우당탕탕 코딩테스트 연습
+
+## 기초부터 하나하나 다 해보기
+- 하루에 한개이상은 무조건 하기
+- 안할 시 게임, 축구, 기타 금지
