@@ -30,7 +30,7 @@
   - num_list 배열의 값을 더해서 sum과 product를 배출하는 방식
   - 문장 끝 부분에 ,0); 과 ,1)은 각각 sum과 product의 초기값
     
-- map과 reduce 차이
+- map과 reduce 차이 (slice)
   - map 메서드
     - 목적: map은 배열의 각 요소에 대해 주어진 함수를 호출하고, 그 결과를 모아 새로운 배열을 생성
 
