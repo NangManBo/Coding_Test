@@ -75,22 +75,22 @@
   - 배열의 각 요소를 조건에 맞게 필터링하여 새로운 배열을 반환
   - let 새로운배열 = 기존배열.filter(요소 => 조건);
   - 예시
-    - ```javascript
+     ```javascript
       let 숫자배열 = [1, 2, 3, 4, 5, 6];
       let 짝수들 = 숫자배열.filter(숫자 => 숫자 % 2 === 0);
       console.log(짝수들); // [2, 4, 6]
-      ```
+     ```
 - 배열 정렬 (sort)
   - 오름차순
-  -  ```javascript
+  - ```javascript
      const arr = [22, 11, 2, 9, 1, 5];
      arr.sort(function (a, b) {
        return a - b;
      });
+     console.log(arr);
      ```
-    console.log(arr);
   - 내림차순
-  -  ```javascript
+  - ```javascript
      const arr = [22, 11, 2, 9, 1, 5];
      arr.sort(function (a, b) {
        return b - a;
