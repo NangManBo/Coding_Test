@@ -71,7 +71,7 @@
       let 짝수들 = 숫자배열.filter(숫자 => 숫자 % 2 === 0);
       console.log(짝수들); // [2, 4, 6]
       
-- 배열 정렬
+- 배열 정렬 (sort)
   - 오름차순
   - const arr = [22, 11, 2, 9, 1, 5];
     arr.sort(function (a, b) {
