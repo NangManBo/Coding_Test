@@ -62,6 +62,21 @@
   - 가장 먼저 조건에 맞는 index 반환
   - 아니면 -1 반환
 
+
+- 배열 정렬
+  - 오름차순
+  - const arr = [22, 11, 2, 9, 1, 5];
+    arr.sort(function (a, b) {
+      return a - b;
+    });
+    console.log(arr);
+  - 내림차순
+  - const arr = [22, 11, 2, 9, 1, 5];
+    arr.sort(function (a, b) {
+      return b - a;
+    });
+    console.log(arr);
+    
 ### 소수점
 
 - Math.ceil(숫자) : 소수점 올림, 정수 반환
