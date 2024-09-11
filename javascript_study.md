@@ -14,12 +14,12 @@
   - index 사용
   - ```javascript
     arr.map((num,index) => {
-    if(num >= 50 && num % 2 === 0){
-    arr[index] = num / 2;
-    }
-    else if(num < 50 && num % 2 === 1){
-    arr[index] = num\*2;
-    }
+      if(num >= 50 && num % 2 === 0){
+        arr[index] = num / 2;
+      }
+      else if(num < 50 && num % 2 === 1){
+        arr[index] = num\*2;
+      }
     });
     ```
   - map 으로 arr 배열안의 값들을 index 순서대로 하나하나 확인
@@ -28,10 +28,10 @@
 
 - 배열 내부 요소 건들기 2 (reduce)
   - ```javascript
-     if (num_list.length > 10) {
-    return num_list.reduce((sum, num) => sum + num, 0);
+    if (num_list.length > 10) {
+      return num_list.reduce((sum, num) => sum + num, 0);
     } else {
-    return num_list.reduce((product, num) => product \* num, 1);
+      return num_list.reduce((product, num) => product \* num, 1);
     }
     ```
   - num은 배열 내부의 요소
@@ -56,15 +56,15 @@
 
   -  ```javascript
      function solution(num_list, n) {
-      return num_list.slice(n);
-      }
+       return num_list.slice(n);
+     }
      ```
   - 얘는 배열의 크기가 5이고 n이 2일 경우 배열 [0,1,2,3,4] 중에 [3,4,5] 만 내보냄
   - 쉽게 말해서 n 값부터 인덱스 값이 나오면 된다
 
 - 배열 인덱스 찾기 (findIndex)
   - ```javascript
-     function solution(num_list) {
+    function solution(num_list) {
       return num_list.findIndex(num => num < 0);
     }
     ```
@@ -85,7 +85,7 @@
   -  ```javascript
      const arr = [22, 11, 2, 9, 1, 5];
      arr.sort(function (a, b) {
-      return a - b;
+       return a - b;
      });
      ```
     console.log(arr);
@@ -93,7 +93,7 @@
   -  ```javascript
      const arr = [22, 11, 2, 9, 1, 5];
      arr.sort(function (a, b) {
-      return b - a;
+       return b - a;
      });
      console.log(arr);
     ```
