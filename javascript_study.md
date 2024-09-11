@@ -87,7 +87,7 @@
      arr.sort(function (a, b) {
        return a - b;
      });
-     console.log(arr);
+     console.log(arr); // [1, 2, 5, 9, 11, 22]
      ```
   - 내림차순
   - ```javascript
@@ -95,7 +95,7 @@
      arr.sort(function (a, b) {
        return b - a;
      });
-     console.log(arr);
+     console.log(arr); // [22, 11, 9, 5, 2, 1]
     ```
 ### 소수점
 
